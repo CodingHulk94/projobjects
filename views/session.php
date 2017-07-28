@@ -23,7 +23,7 @@
 	<div class="panel-heading"><strong>SESSION</strong> <?php if ($sessionObject->getId() > 0) : ?>Modification<?php else : ?>Ajout<?php endif ?></div>
 	<div class="panel-body">
 		<form action="" method="post">
-			<input type="hidden" name="id" value="<?= $trainingObject->getId() ?>">
+			<input type="hidden" name="id" value="<?= $sessionObject->getId() ?>">
 			<div class="row">
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="form-group">

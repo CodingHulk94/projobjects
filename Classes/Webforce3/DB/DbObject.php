@@ -78,4 +78,16 @@ abstract class DbObject {
 	public function getInserted() {
 		return $this->inserted;
 	}
+	
+	function setId($id) {
+		$this->id = $id;
+	}
+
+	function setInserted($inserted) {
+		$this->inserted = $inserted;
+	}
+
+
+	
+	
 }
